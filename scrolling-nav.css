@@ -36,6 +36,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: url(images/mainbg.jpg) no-repeat center center #fff;
+    background-size: cover;
 }
 
 .about-section {
@@ -70,5 +71,6 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: url(images/dice.jpg) no-repeat center center #eee;
+    background-size: cover;
 }
