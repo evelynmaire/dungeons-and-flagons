@@ -7,10 +7,10 @@
   <title>Dungeons and Flagons</title>
   <link href="bootstrap.min.css" rel="stylesheet">
   <link href="scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header page-scroll">
@@ -38,7 +38,7 @@
           <li>
             <a class="page-scroll" href="#games">Game Schedule</a>
           </li>
-            <li>
+          <li>
             <a class="page-scroll" href="#reserve">Reservations</a>
           </li>
         </ul>
@@ -52,8 +52,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Scrolling Nav</h1>
-          <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+          <h1>Dungeons and Flagons</h1>
           <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
         </div>
       </div>
@@ -61,47 +60,112 @@
   </section>
   <!-- About Section -->
   <section id="about" class="about-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
-          <h1>About Section</h1>
+        <div class="col-sm-6 menu-content">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odio quidem sit a, neque voluptas velit impedit veniam. Natus eum, accusamus enim deleniti. Unde, molestiae esse praesentium officia vel dolorem?</p>
         </div>
+        <div class="col-sm-6"></div>
       </div>
     </div>
   </section>
   <!-- Menu Section -->
   <section id="menu" class="menu-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
-          <h1>Menu Section</h1>
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6 menu-content">
+          <div class="menu-nav">
+            <div class="menu-header">
+              <h2>Menu</h2>
+            </div>
+            <div class="menu-nav-pills">
+              <ul class="nav nav-pills">
+                <li><a data-toggle="pill" href="#starters">Starters</a></li>
+                <li class="active"><a data-toggle="pill" href="#mains">Mains</a></li>
+                <li><a data-toggle="pill" href="#desserts">Desserts</a></li>
+                <li><a data-toggle="pill" href="#drinks">Drinks</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-content">
+            <div id="starters" class="tab-pane fade">
+              <h3>Starters</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, velit magnam debitis inventore sit nobis tempora. Similique quaerat, consectetur. Repudiandae provident, fugit illum voluptates minima aut fugiat iusto consequatur nemo!</p>
+            </div>
+            <div id="mains" class="tab-pane fade in active">
+              <h3>Mains</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam veritatis aperiam, totam quaerat vel architecto qui, quasi praesentium laudantium facere omnis inventore in! Delectus quis eligendi eius totam adipisci fugiat.</p>
+            </div>
+            <div id="desserts" class="tab-pane fade">
+              <h3>Desserts</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, cum non beatae adipisci alias modi dolorum ad eaque. Maxime non deserunt vel iure optio consectetur odit magni illo commodi quisquam.</p>
+            </div>
+            <div id="drinks" class="tab-pane fade">
+              <h3>Drinks</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt deserunt iure, sunt hic recusandae non eveniet quae cupiditate nostrum aut eius quaerat, itaque nulla debitis unde fugiat reprehenderit sequi quo.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- Games Section -->
   <section id="games" class="games-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
-          <h1>Games Section</h1>
+        <div class="col-sm-6 menu-content">
+          <div class="menu-nav">
+            <div class="menu-header">
+              <h2>Game Schedule</h2>
+            </div>
+            <div class="menu-nav-pills">
+              <ul class="nav nav-pills">
+                <li class="active"><a data-toggle="pill" href="#dnd">D&D</a></li>
+                <li><a data-toggle="pill" href="#magic">Magic: The Gathering</a></li>
+                <li><a data-toggle="pill" href="#pathfinder">Pathfinder</a></li>
+                <li><a data-toggle="pill" href="#other">Other</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-content">
+            <div id="dnd" class="tab-pane fade in active">
+              <h3>Dungeons and Dragons</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quisquam necessitatibus facere cumque, sint perferendis explicabo velit aspernatur inventore omnis neque, nulla ullam ea. Quaerat maiores recusandae molestias aliquid eveniet!</p>
+            </div>
+            <div id="magic" class="tab-pane fade">
+              <h3>Magic: The Gathering</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dicta alias vel exercitationem dignissimos, numquam voluptates velit maxime perferendis molestias fugiat, neque veniam laborum quaerat id, sit possimus earum magni.</p>
+            </div>
+            <div id="pathfinder" class="tab-pane fade">
+              <h3>Pathfinder</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tenetur nulla repudiandae, dolorum ipsa animi enim delectus pariatur. Magnam voluptas esse nobis ratione, harum recusandae sunt explicabo quisquam id laudantium.</p>
+            </div>
+            <div id="other" class="tab-pane fade">
+              <h3>Other</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae et temporibus accusantium aspernatur adipisci blanditiis fuga consequatur quae velit ipsum, asperiores, maiores culpa libero sequi dicta autem! Laborum harum, a.</p>
+            </div>
+          </div>
         </div>
+        <div class="col-sm-6"></div>
       </div>
     </div>
   </section>
   <!-- Reserve Section -->
   <section id="reserve" class="reserve-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
-          <h1>Reserve Section</h1>
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6 menu-content">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odio quidem sit a, neque voluptas velit impedit veniam. Natus eum, accusamus enim deleniti. Unde, molestiae esse praesentium officia vel dolorem?</p>
         </div>
       </div>
     </div>
   </section>
   <!-- Reserve Section -->
   <section id="footer" class="footer-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
           <h1>Footer Section</h1>

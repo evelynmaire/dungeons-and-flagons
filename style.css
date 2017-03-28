@@ -1,0 +1,80 @@
+.menu-section {
+  background: url(images/feast.jpg) no-repeat center center #ffffff;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+}
+
+.games-section {
+  background: url(images/games.jpg) no-repeat center center #ffffff;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+}
+
+.about-section {
+  background: url(images/fireplace.jpg) no-repeat center center #ffffff;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+}
+
+.reserve-section {
+  background: url(images/fireplace.jpg) no-repeat center center #ffffff;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro-section {
+  background: url(images/mainbg.jpg) no-repeat center center #ffffff;
+  background-size: cover;
+}
+
+.menu-content {
+  padding: 50px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-header {
+  width: 50%;
+  justify-content: left;
+}
+
+.menu-nav-pills {
+  width: 50%;
+  margin-top: 1em;
+  justify-content: left;
+}
+
+.tab-pane {
+	text-align: left;
+	width: 100%;
+	padding: 1em 5em 1em 5em;
+}
+
+
+/*.menu-section,
+.menu-section .row,
+.menu-section .container, 
+.menu-section .col-sm-6 {
+	padding: 0 !important;
+	margin: 0 !important;
+}*/
+
+
+/*
+.menu-content {
+	padding: 150px 50px 150px 50px !important;
+}*/
