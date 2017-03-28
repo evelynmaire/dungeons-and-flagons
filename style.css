@@ -1,3 +1,7 @@
+* {
+	font-size: 16px;
+}
+
 .menu-section {
   background: url(images/feast.jpg) no-repeat center center #ffffff;
   background-size: cover;
@@ -37,25 +41,27 @@ img {
 }
 
 .menu-content {
-  padding: 50px;
+  padding: 50px 10px 50px 10px;
   background: #fff;
   min-height: 100vh;
 }
 
 .menu-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .menu-header {
   width: 50%;
   justify-content: left;
+  text-align: center;
 }
 
 .menu-nav-pills {
   width: 50%;
   margin-top: 1em;
-  justify-content: left;
+  justify-content: center;
 }
 
 .tab-pane {
