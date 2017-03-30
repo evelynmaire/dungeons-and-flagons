@@ -1,5 +1,119 @@
 * {
-	font-size: 16px;
+  font-size: 18px;
+  font-family: 'Old Standard TT', serif;
+  color: #565656;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  border-bottom: 3px solid #76323F;
+  display: inline-block;
+  color: #76323F;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  text-align: left;
+  color: #D7CEC7;
+  margin-top: 0;
+  margin-bottom: 1.4em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #76323F;
+}
+
+a:hover {
+  color: #D7CEC7;
+}
+
+.navbar {
+  background: url('images/menubg.jpg') repeat center #76323F;
+}
+
+.navbar-nav li a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #D7CEC7;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #D7CEC7;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #76323F;
+  background-color: #D7CEC7;
+}
+
+.navbar-default {
+  background-color: #76323F;
+  border: 0;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 5px solid #76323F;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  color: #76323F;
+  background-color: #C09F80;
+  border-color: #76323F;
+}
+
+.logo {
+  margin-top: 15%;
+}
+
+.leader {
+  font-size: 1.4em;
+  /*padding-top: 1.4em;*/
 }
 
 .menu-section {
@@ -17,10 +131,11 @@
 }
 
 .about-section {
-  background: url(images/fireplace.jpg) no-repeat center center #ffffff;
+  background: url(images/about.jpg) no-repeat center center #ffffff;
   background-size: cover;
   height: 100%;
   padding: 0;
+  text-align: left;
 }
 
 .reserve-section {
@@ -30,20 +145,22 @@
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .intro-section {
   background: url(images/mainbg.jpg) no-repeat center center #ffffff;
   background-size: cover;
 }
 
-.menu-content {
+.menu-content,
+.about-content {
   padding: 50px 10px 50px 10px;
-  background: #fff;
+  background: #ffffff;
   min-height: 100vh;
+}
+
+.about-content,
+.res-content {
+  padding: 3.5em 4em 3.5em 4em;
+  text-align: left;
 }
 
 .menu-nav {
@@ -55,32 +172,57 @@ img {
 .menu-header {
   width: 50%;
   justify-content: left;
-  text-align: center;
+  text-align: left;
+  padding-left: 5em;
+  margin: 0;
 }
 
 .menu-nav-pills {
   width: 50%;
   margin-top: 1em;
   justify-content: center;
+  margin-bottom: 0;
+}
+
+.nav-pills li a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  /*  border-bottom: 5px solid darkgrey;
+  border-radius: 10px;*/
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background: #76323F;
 }
 
 .tab-pane {
-	text-align: left;
-	width: 100%;
-	padding: 1em 5em 1em 5em;
+  text-align: left;
+  width: 100%;
+  padding: 1em 5em 1em 5em;
 }
 
+table {
+  width: 100%;
+  border: 0;
+}
 
-/*.menu-section,
-.menu-section .row,
-.menu-section .container, 
-.menu-section .col-sm-6 {
-	padding: 0 !important;
-	margin: 0 !important;
-}*/
+.item1-table {
+  text-align: left;
+}
 
+.item2-table {
+  text-align: right;
+}
 
-/*
-.menu-content {
-	padding: 150px 50px 150px 50px !important;
-}*/
+.menu-row {
+  border-bottom: 1px dotted #000000;
+  margin-bottom: 1em;
+}
+
+.margin-fix {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
