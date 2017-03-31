@@ -107,6 +107,29 @@ a:hover {
   border-color: #76323F;
 }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 5px solid #76323F;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  color: #76323F;
+  background-color: #C09F80;
+  border-color: #76323F;
+}
+
 .logo {
   margin-top: 15%;
 }
@@ -151,7 +174,8 @@ a:hover {
 }
 
 .menu-content,
-.about-content {
+.about-content,
+.res-content {
   padding: 50px 10px 50px 10px;
   background: #ffffff;
   min-height: 100vh;
@@ -217,12 +241,42 @@ table {
   text-align: right;
 }
 
+.item3-table {
+  text-align: right;
+}
+
 .menu-row {
   border-bottom: 1px dotted #000000;
   margin-bottom: 1em;
 }
 
+.menu-row-first {
+  border-bottom: 0px;
+  margin-bottom: 0;
+}
+
 .margin-fix {
   margin-top: 1.5em;
   margin-bottom: 0;
+}
+
+.footer-section {
+  position: relative;
+}
+
+.credit {
+  position: absolute;
+  padding: 1em;
+  bottom: 0px;
+  background: url('images/menubg.jpg') repeat center #76323F;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.res-form {
+  width: 50%;
+  padding-left: 0.8em;
+  margin-top: 2em;
 }
