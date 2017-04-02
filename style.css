@@ -1,3 +1,6 @@
+/*GLOBAL STYLES
+---------------------------------------------------------*/
+
 * {
   font-size: 18px;
   font-family: 'Old Standard TT', serif;
@@ -35,6 +38,65 @@ a {
 a:hover {
   color: #D7CEC7;
 }
+
+.leader {
+  font-size: 1.4em;
+  /*padding-top: 1.4em;*/
+}
+
+
+/*BUTTONS
+---------------------------------------------------------*/
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 5px solid #76323F;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  color: #76323F;
+  background-color: #C09F80;
+  border-color: #76323F;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 5px solid #76323F;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  color: #76323F;
+  background-color: #C09F80;
+  border-color: #76323F;
+}
+
+
+/*NAVBAR
+---------------------------------------------------------*/
 
 .navbar {
   background: url('images/menubg.jpg') repeat center #76323F;
@@ -84,60 +146,34 @@ a:hover {
   border: 0;
 }
 
-.btn-default,
-.btn-default:hover,
-.btn-default:active,
-.btn-default:focus,
-.btn-default.active.focus,
-.btn-default.active:focus,
-.btn-default.active:hover,
-.btn-default:active.focus,
-.btn-default:active:focus,
-.btn-default:active:hover {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  border-bottom: 5px solid #76323F;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-radius: 10px;
-  color: #76323F;
-  background-color: #C09F80;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #D7CEC7;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #D7CEC7;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #76323F;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #D7CEC7;
+  background-color: #76323F
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   border-color: #76323F;
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary.active.focus,
-.btn-primary.active:focus,
-.btn-primary.active:hover,
-.btn-primary:active.focus,
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  border-bottom: 5px solid #76323F;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-radius: 10px;
-  color: #76323F;
-  background-color: #C09F80;
-  border-color: #76323F;
-}
 
-.logo {
-  margin-top: 15%;
-}
-
-.leader {
-  font-size: 1.4em;
-  /*padding-top: 1.4em;*/
-}
+/*SECTION STYLES
+---------------------------------------------------------*/
 
 .menu-section {
   background: url(images/feast.jpg) no-repeat center center #ffffff;
@@ -166,6 +202,7 @@ a:hover {
   background-size: cover;
   height: 100%;
   padding: 0;
+  position: relative;
 }
 
 .intro-section {
@@ -186,6 +223,25 @@ a:hover {
   padding: 3.5em 4em 3.5em 4em;
   text-align: left;
 }
+
+.credit {
+  position: absolute;
+  padding: 1em;
+  bottom: 0px;
+  background: url('images/menubg.jpg') repeat center #76323F;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 10%;
+}
+
+
+/*TABS
+---------------------------------------------------------*/
 
 .menu-nav {
   display: flex;
@@ -228,6 +284,10 @@ a:hover {
   padding: 1em 5em 1em 5em;
 }
 
+
+/*TABLES
+---------------------------------------------------------*/
+
 table {
   width: 100%;
   border: 0;
@@ -260,23 +320,52 @@ table {
   margin-bottom: 0;
 }
 
-.footer-section {
-  position: relative;
-}
 
-.credit {
-  position: absolute;
-  padding: 1em;
-  bottom: 0px;
-  background: url('images/menubg.jpg') repeat center #76323F;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-size: 1em;
-  color: #ffffff;
-}
+/*FORM
+---------------------------------------------------------*/
 
 .res-form {
   width: 50%;
   padding-left: 0.8em;
   margin-top: 2em;
+}
+
+
+/*MEDIA QUERIES
+---------------------------------------------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  .menu-content,
+  .about-content,
+  .res-content {
+    padding: 10px 10px 10px 10px;
+    background: #ffffff;
+    height: 100%;
+    margin-top: 100px;
+  }
+  /*.about-content,
+  .res-content {
+    padding: 3.5em 4em 3.5em 4em;
+    text-align: left;
+  }*/
+  .menu-section {
+    min-height: 100%;
+    overflow: auto;
+  }
+  .games-section {
+    min-height: 100%;
+    overflow: auto;
+  }
+  .about-section {
+    min-height: 100%;
+    overflow: auto;
+  }
+  .reserve-section {
+    min-height: 100%;
+    overflow: auto;
+  }
+  .intro-section {
+    min-height: 100%;
+    overflow: auto;
+  }
 }
